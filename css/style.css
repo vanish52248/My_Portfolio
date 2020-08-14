@@ -1,0 +1,208 @@
+/*main.htmlのcssページ*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+.icon{
+    width: 100%;
+    max-width: 80px;
+}
+
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+body{
+    max-width: 960px;
+    margin: 0 auto;
+    font-family: 'ヒラギノ角ゴ ProN W6';
+}
+
+h1 {
+  color: #696969;
+  max-width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 60px;
+  padding: 30px;
+  border-top: solid 2px #696969;
+  border-bottom: solid 2px #696969;
+}
+dt{
+    font-size: 50px;
+    color: #000000;
+    margin-top: 30px;
+}
+
+.info span{
+    color: #696969;
+    font-size: 50px;
+}
+
+.info_flex{
+    display: flex;
+    align-items: center;
+}
+
+.info_box{
+    max-width: 960px;
+    margin: 30px 30px;
+    vertical-align: middle;
+    line-height: 30px;
+    font-size: 20px;
+    color: #696969;
+    padding: 10px;
+    border: #696969 4px solid;
+    border-radius: 20px;
+}
+
+.main_box{
+     padding: 30px 20px 0;
+   
+}
+img{
+    border-radius: 50px;
+    margin-right: 20px;
+}
+footer p{
+    font-size: 25px;
+    margin: 20px;
+    text-align: center;
+}
+.footer_inner a:hover{
+    opacity: 0.3;
+    transition: 0.6s;
+}
+a{
+    color: #000000;
+}
+
+.info_box{
+  position: relative;
+  display: inline-block;
+  margin: 1.5em 0 1.5em 15px;
+  padding: 7px 10px;
+  min-width: 120px;
+  max-width: 100%;
+  color: #555;
+  font-size: 16px;
+  background: #FFF;
+  border: solid 3px #555;
+  box-sizing: border-box;
+}
+
+.info_box:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -24px;
+  margin-top: -12px;
+  border: 12px solid transparent;
+  border-right: 12px solid #FFF;
+  z-index: 2;
+}
+
+.info_box:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -30px;
+  margin-top: -14px;
+  border: 14px solid transparent;
+  border-right: 14px solid #555;
+  z-index: 1;
+}
+
+.info_box p {
+  margin: 0;
+  padding: 0;
+}
